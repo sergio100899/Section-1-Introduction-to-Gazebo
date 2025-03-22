@@ -2,6 +2,30 @@
 
 <robot name="rb1_robot">
 
+    <gazebo reference="base_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+    <gazebo reference="right_wheel">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="left_wheel">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="front_caster">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="back_caster">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="front_laser">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
     <!-- Base_footprint -->
     <link name="base_footprint"/>
 
